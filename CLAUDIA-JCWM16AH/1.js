@@ -33,3 +33,4 @@ function drawingTools() {
     }
     console.log(rows)
 }
+drawingTools()
