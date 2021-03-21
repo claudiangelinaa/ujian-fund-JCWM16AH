@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DRAWING TOOLS</h1>
+    <ol>
+        <li>Persegi</li>
+        <li>Segitiga Siku2 Rata Kiri</li>
+        <li>Segitiga Siku2 Rata Kanan</li>
+    </ol>
+
+    <br>
+    <label>Jenis Bangunan:</label>
+    <br>
+    <input type="text" id="inputJenis">
+
+    <br>
+    <br>
+    <label>Ukuran:</label><br>
+    <input type="text" id="inputUkuran">
+    <br>
+    <br>
+    <button onclick="drawingTools()">Lihat</button>
+    <p id="result1"></p>
+
+    <hr><hr>
+    <h1>FORM USERS</h1>
+    <input type="text" placeholder="username" id="inputUsername">
+    <input type="text" placeholder="email" id="inputEmail">
+    <label>role:</label>
+    <select id="inputRole">
+        <option value="user">user</option>
+        <option value="admin">admin</option>
+    </select>
+    <br><br>
+    <button onclick="addData()">ADD USER</button>
+
+    <table class="tabelResult">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="res">
+
+        </tbody>
+    </table>
+    <script src="3.js"></script>
+</body>
+</html>

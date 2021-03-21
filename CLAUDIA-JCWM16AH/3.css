@@ -1,0 +1,4 @@
+.tabelResult , .tabelResult th, .tabelResult tr, .tabelResult td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
