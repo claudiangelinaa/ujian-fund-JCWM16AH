@@ -10,7 +10,7 @@ function no2(){
     }
     arrNum.pop(inputAngka)
 
-    arrNum.sort()
+    arrNum.sort(function(a, b){return a-b});
     console.log(arrNum)
 
     let max = 0
